@@ -1,0 +1,8 @@
+title: Elpis
+description: 利用規約・プライバシーポリシー
+theme: jekyll-theme-primer
+lang: ja
+
+# 公開しないもの
+exclude:
+  - README.md
