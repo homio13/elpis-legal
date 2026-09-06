@@ -260,4 +260,4 @@ Supabase, Inc. は米国の法人であり、運用・保守の過程で同社�
 
 ---
 
-[利用規約]({{ site.baseurl }}/terms/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/privacy/)
+[利用規約]({{ site.baseurl }}/terms/) · [サポート]({{ site.baseurl }}/support/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/privacy/)

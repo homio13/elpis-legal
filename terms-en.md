@@ -261,4 +261,4 @@ advance, in a way you will see, such as a notice inside the App.
 
 ---
 
-[Privacy Policy]({{ site.baseurl }}/en/privacy/) · [Home]({{ site.baseurl }}/) · [日本語]({{ site.baseurl }}/terms/)
+[Privacy Policy]({{ site.baseurl }}/en/privacy/) · [Support]({{ site.baseurl }}/en/support/) · [Home]({{ site.baseurl }}/) · [日本語]({{ site.baseurl }}/terms/)

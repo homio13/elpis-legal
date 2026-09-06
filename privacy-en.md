@@ -270,4 +270,4 @@ guardian. The App is not directed to children under 13.
 
 ---
 
-[Terms of Service]({{ site.baseurl }}/en/terms/) · [Home]({{ site.baseurl }}/) · [日本語]({{ site.baseurl }}/privacy/)
+[Terms of Service]({{ site.baseurl }}/en/terms/) · [Support]({{ site.baseurl }}/en/support/) · [Home]({{ site.baseurl }}/) · [日本語]({{ site.baseurl }}/privacy/)

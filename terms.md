@@ -247,4 +247,4 @@ Elpis Plus の決済は、App Store（Apple Inc.）または Google Play（Googl
 
 ---
 
-[プライバシーポリシー]({{ site.baseurl }}/privacy/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/terms/)
+[プライバシーポリシー]({{ site.baseurl }}/privacy/) · [サポート]({{ site.baseurl }}/support/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/terms/)
