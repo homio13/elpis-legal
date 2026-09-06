@@ -3,6 +3,11 @@ description: 利用規約・プライバシーポリシー
 theme: jekyll-theme-primer
 lang: ja
 
+# プロジェクトサイトなのでパスに /elpis-legal が付く。
+# 言語間リンクで {{ site.baseurl }} を使うため明示する
+baseurl: /elpis-legal
+url: https://homio13.github.io
+
 # 公開しないもの
 exclude:
   - README.md

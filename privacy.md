@@ -8,6 +8,8 @@ permalink: /privacy/
 制定日: 2026年9月6日
 最終改定日: 2026年9月6日
 
+English version is [here]({{ site.baseurl }}/en/privacy/).
+
 Elpis（以下「当方」）は、健康習慣アプリ「Elpis」（以下「本アプリ」）において取得する
 利用者の情報を、以下のとおり取り扱います。
 
@@ -258,4 +260,4 @@ Supabase, Inc. は米国の法人であり、運用・保守の過程で同社�
 
 ---
 
-[利用規約](../terms/) / [トップ](../)
+[利用規約]({{ site.baseurl }}/terms/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/privacy/)

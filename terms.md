@@ -8,6 +8,8 @@ permalink: /terms/
 制定日: 2026年9月6日
 最終改定日: 2026年9月6日
 
+English version is [here]({{ site.baseurl }}/en/terms/).
+
 この利用規約（以下「本規約」）は、Elpis（以下「当方」）が提供する健康習慣アプリ
 「Elpis」（以下「本アプリ」）の利用条件を定めるものです。本アプリを利用される方
 （以下「利用者」）は、本規約に同意したうえでご利用ください。
@@ -245,4 +247,4 @@ Elpis Plus の決済は、App Store（Apple Inc.）または Google Play（Googl
 
 ---
 
-[プライバシーポリシー](../privacy/) / [トップ](../)
+[プライバシーポリシー]({{ site.baseurl }}/privacy/) · [トップ]({{ site.baseurl }}/) · [English]({{ site.baseurl }}/en/terms/)
