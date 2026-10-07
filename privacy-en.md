@@ -6,7 +6,7 @@ permalink: /en/privacy/
 # Privacy Policy
 
 Effective: September 6, 2026
-Last revised: September 6, 2026
+Last revised: October 7, 2026
 
 Elpis ("we", "us") operates the health-habit app Elpis (the "App"). This policy
 explains what information we collect and how we handle it.
@@ -92,6 +92,33 @@ provider (RevenueCat, Inc.).
 processed by Apple (App Store) or Google (Google Play); we only learn whether a
 subscription is active.
 
+### 1-7. How the App is used (behavioural data)
+
+To improve the App and investigate faults, we record **what you do inside the App**.
+
+| What | Detail |
+|---|---|
+| Screens | Which screens you opened |
+| Features used | Tapping record, walk, craft, or open the egg, and coming back from a walk |
+| The **fact** of a record | That you saved a record, that you closed without saving, how long the entry took, and whether it was for today or an earlier date |
+| Growth | That a monster evolved or left the nest, and which cycle it was |
+| Subscription funnel | That you viewed the Elpis Plus page, and that you subscribed |
+| Notifications | That you opened the App from a notification |
+| Getting started | How far through the initial setup you got |
+| Faults | The circumstances of a crash, and the error itself |
+
+**The contents of your records are not included.** Your mood scores, habit names,
+whether you completed a habit, your diary text, sleep, steps and screen time are
+**never sent**. What we send is the fact that a record was saved, and how many
+seconds it took.
+
+This data includes the **identifier described in 1-1**. It does not include your
+name or email address.
+
+Fault reports can contain technical details, such as the address of a request
+that failed. That identifier may appear in them. The contents of your records
+do not.
+
 ---
 
 ## 2. What we do not collect
@@ -105,8 +132,12 @@ To be explicit, we do not collect:
 - **Advertising identifiers (IDFA / AAID)**
 - **Payment card details**
 
-**The App also contains no analytics or behavioural tracking tools at this time.**
-If we add any, we will revise this policy and notify you as described in section 10.
+The App does use analytics, as described in 1-7. **What it never sends is the
+content of your records** — mood, habits, diary, body data and screen time stay
+out of it. Only your actions and the state of the App are sent.
+
+**There is no setting that turns analytics off on its own.** If you would rather
+not send it, you can delete your account (section 8) or stop using the App.
 
 ---
 
@@ -115,6 +146,7 @@ If we add any, we will revise this policy and notify you as described in section
 | What | Where |
 |---|---|
 | Records, body data, monster data, subscription status | Supabase (**Tokyo region**) |
+| Behavioural and fault data (1-7) | Google's servers (Firebase / Google Analytics). A copy for analysis sits in BigQuery, **Tokyo region** |
 | Some display settings, such as room theme | Only on your device |
 
 Your records are stored on servers in Japan. The provider, Supabase, Inc., is a
@@ -165,7 +197,7 @@ We rely on the following providers, all incorporated in the United States.
 | Supabase, Inc. (US) | Database and authentication | Japan (Tokyo region) |
 | RevenueCat, Inc. (US) | Subscription management | United States |
 | Apple Inc. (US) | Account linking, App Store payments | United States |
-| Google LLC (US) | Account linking, Google Play payments | United States |
+| Google LLC (US) | Account linking, Google Play payments, **analytics of behavioural and fault data** (Firebase / Google Analytics) | United States (analysis copy in Japan) |
 
 Data protection rules in the United States differ from those in Japan and other
 countries. Please also review each provider's own privacy policy.
@@ -216,11 +248,23 @@ Deleting removes all of the following:
 
 **Deletion cannot be undone.** We cannot restore data from backups.
 
+Behavioural data (1-7) is the exception: it stays with the analytics provider.
+See "How long behavioural data is kept" below.
+
 ### What deletion does not stop
 
 **Deleting your account does not cancel your App Store or Google Play
 subscription.** You must cancel it separately in the store's settings (see the
 Terms of Service, section 5).
+
+### How long behavioural data is kept
+
+Behavioural data (1-7) is deleted automatically **14 months** after it is
+collected. Fault reports are deleted on Google's schedule, roughly 90 days.
+
+**Deleting your account does not remove it.** It carries the identifier from 1-1,
+but the analytics provider holds it without any link to the contents of your
+records, and it expires on the schedule above.
 
 ### If you do not delete your account
 
