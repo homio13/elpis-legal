@@ -6,7 +6,7 @@ permalink: /en/privacy/
 # Privacy Policy
 
 Effective: September 6, 2026
-Last revised: October 7, 2026
+Last revised: October 8, 2026
 
 Elpis ("we", "us") operates the health-habit app Elpis (the "App"). This policy
 explains what information we collect and how we handle it.
@@ -119,6 +119,33 @@ Fault reports can contain technical details, such as the address of a request
 that failed. That identifier may appear in them. The contents of your records
 do not.
 
+### 1-8. Your name (only if you enter one)
+
+If you enter it during setup or in Settings, we store a name (up to 20 characters)
+that your monster uses to address you. It is optional, and a nickname is fine.
+It is used in the weekly report summary.
+
+### 1-9. AI-written weekly summary (only if you agree)
+
+The "This week" summary in the weekly report is written by an AI (Claude, by
+Anthropic, PBC) **only if you agree**. To do that, we send Anthropic the following:
+
+| What | Detail |
+|---|---|
+| Day counts | How many days you recorded that week, and on how many you did a habit |
+| Body changes | Whether your sleep or steps were better than last week (**only when they were; no numbers are sent**) |
+| A habit name | The name of one habit you did most that week (this can be a name you typed yourself) |
+| Your name | Only if you entered one (1-8) |
+
+- You agree or decline through the prompt shown in the weekly report, or in
+  **Settings > Weekly review > AI summary**. If you do not agree, **nothing is
+  sent** and the summary is shown using pre-written text
+- You can withdraw at any time in the same setting. Nothing is sent after that
+- Your mood scores, diary text, sleep and step numbers, and screen time are
+  **never sent**
+- The written summary is stored by week in the location described in section 3,
+  along with your choice
+
 ---
 
 ## 2. What we do not collect
@@ -135,6 +162,9 @@ To be explicit, we do not collect:
 The App does use analytics, as described in 1-7. **What it never sends is the
 content of your records** — mood, habits, diary, body data and screen time stay
 out of it. Only your actions and the state of the App are sent.
+
+The AI-written weekly summary (1-9) is separate from analytics and happens only
+if you agree.
 
 **There is no setting that turns analytics off on its own.** If you would rather
 not send it, you can delete your account (section 8) or stop using the App.
@@ -160,7 +190,8 @@ operating and maintaining it (see section 6).
 We use the information only to:
 
 1. Provide the App's features — storing and showing your records, growing the
-   monster, estimating effects, and generating weekly reports
+   monster, estimating effects, and generating weekly reports (including an
+   AI-written summary, if you agree)
 2. Provide and manage the Elpis Plus subscription
 3. Respond to your enquiries
 4. Investigate faults and improve the App
@@ -183,7 +214,9 @@ For the body data described in section 1-3, we additionally commit that we:
 
 - **Do not use it for advertising or marketing**
 - **Do not sell or transfer it to third parties**, including data brokers
-- Do not disclose it to third parties without your explicit consent
+- Do not disclose it to third parties without your explicit consent. Only if you
+  agree to 1-9, we send Anthropic whether your sleep or steps were better than
+  last week (no numbers) to write the weekly summary
 - Do not use it for any purpose other than providing the App's features
 
 ---
@@ -198,6 +231,7 @@ We rely on the following providers, all incorporated in the United States.
 | RevenueCat, Inc. (US) | Subscription management | United States |
 | Apple Inc. (US) | Account linking, App Store payments | United States |
 | Google LLC (US) | Account linking, Google Play payments, **analytics of behavioural and fault data** (Firebase / Google Analytics) | United States (analysis copy in Japan) |
+| Anthropic, PBC (US) | **Writing the weekly summary** (1-9; only if you agree) | United States |
 
 Data protection rules in the United States differ from those in Japan and other
 countries. Please also review each provider's own privacy policy.
@@ -240,6 +274,7 @@ in the App. **This works even if your account is still anonymous and unlinked.**
 Deleting removes all of the following:
 
 - Your account identifier and anything received from a linked provider
+- Your name and your choice about the AI-written summary
 - Every record (mood, habits, journal, screen time)
 - Body data
 - Monsters, collection, materials, crafted items, and their placement
@@ -289,12 +324,8 @@ again.
 
 ## 10. Changes to this policy
 
-We may revise this policy as the law or the App changes. When we do, we update
-the "Last revised" date on this page.
-
-**If a change materially affects your rights** — for example if we start
-collecting a new category of information, add a purpose, or introduce analytics —
-we will tell you in a way you will see, such as a notice inside the App.
+We may revise this policy as the law or the App changes. When we do, we publish
+the revised policy and its "Last revised" date on this page.
 
 ---
 
