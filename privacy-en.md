@@ -6,7 +6,7 @@ permalink: /en/privacy/
 # Privacy Policy
 
 Effective: September 6, 2026
-Last revised: October 8, 2026
+Last revised: October 9, 2026
 
 Elpis ("we", "us") operates the health-habit app Elpis (the "App"). This policy
 explains what information we collect and how we handle it.
@@ -134,13 +134,19 @@ Anthropic, PBC) **only if you agree**. To do that, we send Anthropic the followi
 |---|---|
 | Day counts | How many days you recorded that week, and on how many you did a habit |
 | Body changes | Whether your sleep or steps were better than last week (**only when they were; no numbers are sent**) |
-| A habit name | The name of one habit you did most that week (this can be a name you typed yourself) |
+| Habit names | Names of habits you did most that week, kept up from last week, or started that week (up to three each; these can be names you typed yourself) |
+| Walks and crafting | How many walks your monster took that week and where, and the names of furniture you made that week |
+| Your monster's name | The name of the monster you were raising that week |
 | Your name | Only if you entered one (1-8) |
 
 - You agree or decline through the prompt shown in the weekly report, or in
   **Settings > Weekly review > AI summary**. If you do not agree, **nothing is
   sent** and the summary is shown using pre-written text
 - You can withdraw at any time in the same setting. Nothing is sent after that
+- If we add to what is sent, we ask for your agreement again, and send nothing
+  until you have answered
+- We never send habits you did not do, or anything that went down compared with
+  last week
 - Your mood scores, diary text, sleep and step numbers, and screen time are
   **never sent**
 - The written summary is stored by week in the location described in section 3,
