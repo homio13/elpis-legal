@@ -68,6 +68,9 @@ furniture in your room all go.
 **One thing to watch: deleting your account does not cancel your subscription.**
 Cancel in the store first, then delete the account.
 
+To request deletion without the app, or to see what is kept after deletion, see
+[Delete your account]({{ site.baseurl }}/en/delete-account/).
+
 ### My Apple Health / Health Connect data is not coming through
 
 Check the permission on your device.
