@@ -2,8 +2,8 @@
 
 Elpis の利用規約・プライバシーポリシーの**正本**。GitHub Pages で公開している。
 
-- 利用規約: https://homio13.github.io/elpis-legal/terms/
-- プライバシーポリシー: https://homio13.github.io/elpis-legal/privacy/
+- 利用規約: https://elpis-app.com/terms/
+- プライバシーポリシー: https://elpis-app.com/privacy/
 
 アプリ本体（`homio13/elpis`）は private なので Pages を出せない。
 そのためこのリポジトリを分けている。**文面のコピーを elpis 側に置かない** ——
